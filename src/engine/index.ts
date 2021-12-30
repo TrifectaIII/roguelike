@@ -1,7 +1,7 @@
 // Index for Engine modules
 
 // load constants into main module scope
-export * from './constant';
+export * as Defaults from './defaults';
 
 // load combined Control class into main module scope
 // export {default as Control} from './control';
@@ -15,4 +15,5 @@ export * as Body from './body';
 // load utility functions as a submodule
 export * as Utility from './utility';
 
-
+// load game class
+export * as Game from './game';

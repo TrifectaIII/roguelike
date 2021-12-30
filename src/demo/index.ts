@@ -36,7 +36,7 @@ const scaleGame = (p: P5, cnv: P5.Renderer) => {
     p.textSize(side * Engine.TEXT_SIZE / 100);
 
     // return scale factor
-    return Engine.GAME_WIDTH / side;
+    return Engine.CELL_SIGHT / side;
 
 };
 
